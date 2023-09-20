@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 20px;
+    font-weight: 700;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+    margin: 0 15px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+ul > li:hover {
+    color: #ff9800;
+}
+
+table, td, tr {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    padding: 8px 16px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+    font-weight: 700;
+    color: #333;
+}
+
+.btn, .btnsm {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    margin: 25px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover, .btnsm:hover {
+    background-color: #ff9800;
+}
+
+img {
+    cursor: pointer;
+    position: relative;
+    bottom: 3px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert {
+    display: none;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
